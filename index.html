@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add metadata tags as exercise -->
+    <meta name="author" content="bahaa ahmed">
+    <meta name="description" content="applab : best app for your modern lifestyle">
+    <meta name="keywords" content="applab,todo app,organize tasks">
+    <!-- add favicon for desktop and apple -->
+    <!-- Add this to your HEAD if you want to load the 
+        apple-touch-icons from another dir than your sites' root -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-ipad-60x60.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-ipad-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-iphone-retina-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-ipad-retina-152x152.png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- add custom styles -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>App Lab</title>
+</head>
+<body><!--start header-->
+    <header id="head">
+            <p class="logo flex">app<span class="logo__span">lab</span></p>
+            <nav class="navTop flex">
+                <ul class="flex">
+                    <Li><a href="#">Home</a></Li>
+                    <Li><a href="#">Key features</a></Li>
+                    <Li><a href="#">Pricing</a></Li>
+                    <Li><a href="#">Testimonila</a></Li>
+                    <Li><a href="#">FAQ</a></Li>
+                </ul>
+            </nav>
+            <div class="barsContainer" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            <div class="flex"> 
+                <button class="navBtn btn">Try for free</button>
+            </div>
+    </header>
+    <!--start home-->
+    <section id="home">
+        <div class="wrapper flex">
+            <div class="homeTxt">
+                <h3 class="homeTxt__head">
+                   <img src="images/pic.png" alt=""> #1 Editiors Choice App For 2020
+                </h3>
+                <p class="homeTxt__para">Best app for your modern lifestyle</p>
+                <p class="homeTxt__description">increase productivity with a simple to do app for manging your personal budget</p>
+                <div class="homeLinks">
+                    <button class="btn homeLinks__btn">try for free</button>
+                    <a href="">watch demo video</a>
+                </div>
+            </div>
+            <div class="appPhoto flex">
+                <img src="images/Phone.png"  alt="screenshot of the app homepage">
+            </div>
+        </div>
+    </section>
+    <!--start key features-->
+    <section>
+        <div class="wrapper">
+            <header class="companies">
+                <h4 class="companies__head">Trusted by companies like</h4>
+                <ul class="companiesList flex">
+                    <li class="companiesList__item">
+                        <a href="#" >
+                            <img src="images/south.png" alt="south west company" width="133px" height="42px" class="features_companies-logo">
+                        </a>
+                    </li>
+                    <li class="companiesList__item">
+                        <a href="#">
+                            <img src="images/anubis.PNG" alt="anubis company" width="118px" height="84px" class="features_companies-logo">
+                        </a>
+                    </li>
+                    <li class="companiesList__item">
+                        <a href="#">
+                            <img src="images/alonzo.PNG" alt="alonzo company" width="151px" height="58px" class="features_companies-logo">
+                        </a>
+                    </li>
+                    <li class="companiesList__item">
+                        <a href="#">
+                            <img src="images/express.PNG" alt="express company" width="123px" height="71px" class="features_companies-logo">
+                        </a>
+                    </li>
+                    <li class="companiesList__item">
+                        <a href="#">
+                            <img src="images/maniac.PNG" alt="manic company" width="147px" height="51px" class="features_companies-log">
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <div class="features flex">
+                <div>
+                    <img class="features__img" src="images/phone2.png" alt="A lot of features to help you mange your tasks easily">
+                </div>
+                <div class="features-col-2">
+                    <header class="featuresRight">
+                        <h1 class="featuresRight__head">Awesome apps<br> features</h1>
+                        <p class="featuresRight__para">increase productivity with a simple to do app for manging your personal budget</p>
+                    </header>
+                    <div class="featuresItems">
+                        <article class="flex">
+                            <div class="featuresItems__img">
+                                <img src="images/speed.png" alt="fast performance" width="88px" height="88px">
+                            </div>
+                            <div class="featuresItems__sec">
+                                <h2 class="featuresItems__head featuresItems__head-pink">Fast Performance</h2>
+                                <p class="featuresItems__para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                            </div>
+                        </article>
+                        <article class="flex">
+                            <div class="featuresItems__img">
+                                <img src="images/prototype.png" alt="easy interface" width="88px" height="88px">
+                            </div>
+                            <div class="featuresItems__sec">
+                                <h2 class="featuresItems__head featuresItems__head-blue">Prototyping</h2>
+                                <p class="featuresItems__para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                            </div>
+                        </article>
+                        <article class="flex">
+                            <div class="featuresItems__img">
+                                <img src="images/vector.png" alt="awesome design"width="88px" height="88px">
+                            </div>
+                            <div class="featuresItems__sec">
+                                <h2 class="featuresItems__head featuresItems__head-green">Vector Editing</h2>
+                                <p class="featuresItems__para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="featuresMobile flex">
+                <p class="featuresMobile__left">smart jackpots that you may love this anytime & anywhere</p>
+                <p class="featuresMobile__right">The rise of mobile devices transforms the way we
+                    consume information entirely and the world's most
+                    elevant channels such as Facebook.</p>
+            </div>
+            <div class="featuresPerformance flex">
+                <article class="featuresPerformance__col">
+                    <div>
+                        <img src="images/bill.png" alt="automatic payouts" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2 class="featuresPerformance__head1 featuresPerformance__head1-mg featuresItems__head-pink">Automatic Payouts</h2>
+                        <p class="featuresPerformance__para1-mg">Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="featuresPerformance__col">
+                    <div>
+                        <img src="images/network.png" alt="huge network" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2 class="featuresPerformance__head1 featuresPerformance__head1-mg featuresItems__head-blue">Network effects</h2>
+                        <p class="featuresPerformance__para1-mg">Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="featuresPerformance__col">
+                    <div>
+                        <img src="images/reward.png" alt=" good rewards" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2 class="featuresPerformance__head1 featuresPerformance__head1-mg featuresItems__head-green">Bigger reward method</h2>
+                        <p class="featuresPerformance__para1-mg">Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="featuresDesign">
+            <div class="featuresDesign__col1">
+                <img src="images/design.png" alt="awesom design">
+            </div>
+            <div class="featuresDesign__col2 flex">
+                <h1 class="featuresDesign__head">Designed & built by
+                    the latest code
+                    integration</h1>
+                <p>The rise of mobile devices transforms the way we
+                    consume information entirely and the world's most
+                    elevant channels such as Facebook.</p>
+                <button class="btn featuresDesign__btn">learn more</button>
+            </div>
+        </div>
+        <div class="whyUs">
+            <h1 class="whyUs__head">why you should choose our app</h1>
+            <p class="whyUs__para">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+            <div class="grid">
+                <article class="center">
+                    <div>
+                        <img src="images/app.png" alt="app development" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>App development</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="center">
+                    <div>
+                        <img src="images/award.png" alt="our rewards" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>10 times award</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="center">
+                    <div>
+                        <img src="images/cloud.png" alt="cloud storage" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>cloud storage</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="center">
+                    <div>
+                        <img src="images/customize.png" alt="customize" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>customization</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="center">
+                    <div>
+                        <img src="images/ui.png" alt="ux" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>UX plans</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+                <article class="center">
+                    <div>
+                        <img src="images/customer.png" alt="customer support" width="88px" height="88px">
+                    </div>
+                    <div>
+                        <h2>customer support</h2>
+                        <p>Get your blood test delivered at home collect a sample from the news blood test</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="ultimate">
+            <div class="ultimate__col1">
+                <h1 class="ultimateHead">ultimate features that we build</h1>
+                <p class="ultimatePara">the rise of mobile transforms the way that consume informations entirly</p>
+                <div class="ultimateGrid">
+                    <article>
+                        <div class="ultimateGrid-img-container">
+                            <img src="images/app.png" alt="" height="66px" width="66px">
+                        </div>
+                        <div>
+                            <h2 class="ultimateGrid-head">App development</h2>
+                            <p class="ultimateGrid-para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                        </div>
+                    </article>
+                    <article class="ultimateGrid-img-container">
+                        <div>
+                            <img src="images/ui.png" alt="" height="66px" width="66px">
+                        </div>
+                        <div>
+                            <h2 class="ultimateGrid-head">UX planning</h2>
+                            <p class="ultimateGrid-para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                        </div>
+                    </article>
+                    <article class="ultimateGrid-img-container">
+                        <div>
+                            <img src="images/cloud.png" alt="" height="66px" width="66px">
+                        </div>
+                        <div>
+                            <h2 class="ultimateGrid-head">cloud storage</h2>
+                            <p class="ultimateGrid-para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                        </div>
+                    </article>
+                    <article class="ultimateGrid-img-container">
+                        <div>
+                            <img src="images/customer.png" alt="" height="66px" width="66px">
+                        </div>
+                        <div>
+                            <h2 class="ultimateGrid-head">customer support</h2>
+                            <p class="ultimateGrid-para">Get your blood test delivered at home collect a sample from the news blood test</p>
+                        </div>
+                    </article>
+                </div>
+                <button class="btn ultimateBtn">see all</button>
+            </div>
+            <div class="ultimate__col2 flex">
+                <img src="images/phone3.png" alt="ultimate design" width="500px">
+            </div>
+        </div>
+    </section>
+    <!--start pricing-->
+    <section>
+        <div class="wrapper">
+            <h1 class="priceHead center">Get awesome features, without extra charge</h1>
+            <p class="pricePara center">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+            <div class="priceTabs flex">
+                <button class="btn">Monthly</button>
+                <button class="btn checked">Annualy</button>
+            </div>
+            <div class="priceCards flex center">
+                <div class="card card-shadow">
+                    <div class="cardTop">
+                        <p><span class="cardTop__charge">$0</span>/month</p>
+                        <p class="cardTop__type">business class</p>
+                        <p>for small teams or office</p>
+                    </div>
+                    <div class="cardBottom">
+                        <p>drag & drop builder</p>
+                        <p>1000's of templates</p>
+                        <p>blog support tools</p>
+                        <p>eCommerce store</p>
+                        <button class="btn card__btn">start free trial</button>
+                    </div>
+                </div>
+                <div class="card card-border">
+                    <div class="cardTop">
+                        <p><span class="cardTop__charge">$99</span>/month</p>
+                        <p class="cardTop__type">pro master</p>
+                        <p>for best opportunities</p>
+                    </div>
+                    <div class="cardBottom">
+                        <p>drag & drop builder</p>
+                        <p>1000's of templates</p>
+                        <p>blog support tools</p>
+                        <p>eCommerce store</p>
+                        <button class="btn card__btn">Subscribe Now</button>
+                        <p><a href="">start 14 days trial</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--start testimonials-->
+    <section  id="testimonials">
+            <div class="testimonilas-left flex">
+                <!-- bitmap images -->
+                <!-- Image Map Generated by http://www.image-map.net/ -->
+                <img src="images/testimonials.png" usemap="#image-map">
+
+                <map name="image-map">
+                    <area onclick="currentSlide(1)" alt="facebook-CEO" title="facebook-CEO" 
+                    href="#testimonials" coords="71,135,29" shape="circle">
+                    <area onclick="currentSlide(2)" alt="google-CEO" title="google-CEO" href="#testimonials" coords="117,292,50" shape="circle">
+                    <area onclick="currentSlide(3)" alt="twitter-CEO" title="twitter-CEO" href="#testimonials" coords="299,450,67" shape="circle">
+                    <area onclick="currentSlide(4)" alt="linkedin-CEO" title="linkedin-CEO" href="#testimonials" coords="524,316,44" shape="circle">
+                    <area onclick="currentSlide(5)" alt="amazon-CEO" title="amazon-CEO" href="#testimonials" coords="639,74,29" shape="circle">
+                    <area onclick="currentSlide(6)" alt="apple-CEO" title="apple-CEO" href="#testimonials" coords="297,35,34" shape="circle">
+                    <area onclick="currentSlide(7)" alt="nokia-CEO" title="nokia-CEO" href="#testimonials" coords="338,238,55" shape="circle">
+                </map>
+            </div>
+            <div class="testimonilas-right">
+                <!-- carousal related to bitmap images with controllers -->
+                <!-- rating stars on every slide-->
+                <div class="carousel">
+
+                    <!-- facebook slide -->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/facebook-CEO.png" alt="facebook CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">facebooh CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--google slide -->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/google-CEO.png" alt="google-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">google-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- twitter slide-->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/twitter-CEO.png" alt="twitter-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">twitter-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- linkedin slide -->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/linkedin-CEO.png" alt="linkedin-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">linkedin-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--amazon slide-->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/amazon-CEO.png" alt="amazon-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">amazon-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--apple slide-->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/apple-CEO.png" alt="apple-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">apple-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--nokia slide-->
+                    <div class="mySlides fade">
+                        <h1 class="carousel__head1">Meet clients satisfaction by using product</h1>
+                        <p class="carousel__para1">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h3 class="carousel__head2">User friendly & customizable</h3>
+                        <p class="carousel__para2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        <div class="flex partener">
+                            <img src="images/nokia-CEO.png" alt="nokia-CEO" width="80px"
+                            height="80px" style="border-radius: 50%;">
+                            <div>
+                                <p class="partener__name">zolten nemhe</p>
+                                <p class="partener__job">nokia-CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--carousel controls-->
+                    <a class="next" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+    </section>
+    <!--start FAQs-->
+    <!-- two milestons here-->
+    <section>
+        <div class="wrapper faq">
+            <h1 class="faqHead center">Freaquently Asked Questions</h1>
+            <p class="faqPara center">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+            <div class="faqAccordion">
+                <!--accordione tabs-->
+                <div class="faqContact">
+                    <h3 class="faqContact__head">How to contact emergency riders ?</h3>
+                    <p class="faq_contact-para">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+                    </p>
+                </div>
+                <button class="accordion">app installation failed how to update system information ? </button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dolorum.</p>
+                </div>
+                <button class="accordion">website response taking time how to improve ?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dolorum.</p>
+                </div>
+                <button class="accordion">new update fix all bugs and issues ? </button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dolorum.</p>
+                </div>
+                <button class="accordion">how to contact emergency riders ?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dolorum.aaa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--start footer-->
+    <footer id="footer">
+        <div class="download">
+            <div class="colLeft">
+                <h1 class="downloadHead">Download our App now !</h1>
+                <p class="downloadPara">the rise of mobile transforms the way that consume informations entirly and the world's most elevant channels such as facebook</p>
+                <div class="downloadBtns flex">
+                    <div class="downloadBtn">
+                        <img src="images/google-play-btn.png" alt="">
+                    </div>
+                    <div class="downloadBtn">
+                        <img src="images/app-store-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="colRight">
+                <img src="images/footer.png" alt="" width= "675px">
+            </div>
+        </div>
+        <div class="links center">
+            <h1 class="linksHead"><span>app</span>lab</h1>
+            <ul class="linksNav flex">
+                <Li><a href="">Home</a></Li>
+                <Li><a href="">Key features</a></Li>
+                <Li><a href="">Pricing</a></Li>
+                <Li><a href="">Testimonilas</a></Li>
+                <Li><a href="">FAQ</a></Li>
+            </ul>
+
+            <ul class="socials flex">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-slack-hash"></i></a></li>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p class="copyright">copy right &copy; Bahaa Ahmed 2021 all rights are reserved</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
